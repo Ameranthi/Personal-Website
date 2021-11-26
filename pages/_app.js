@@ -1,10 +1,16 @@
 import 'tailwindcss/tailwind.css'
-// import '../styles/globals.css';
-import Layout from '../components/Layout';
+import Navigation from "../components/Navigation";
+import { ThemeProvider } from 'next-themes'
+import Footer from '../components/Footer';
 
-export default function MyApp({ Component, pageProps }) {
-    // Use the layout defined at the page level, if available
-    const getLayout = Component.getLayout || ((page) => page)
-    
-    return getLayout(<Component {...pageProps} />)
+function MyApp({ Component, pageProps }) {
+  return <>
+    <ThemeProvider attribute="class" enableSystem={false}>
+    <Navigation/>
+    <Component {...pageProps} />
+    <Footer />
+    </ThemeProvider>
+    </>
 }
+
+export default MyApp

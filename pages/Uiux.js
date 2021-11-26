@@ -1,12 +1,14 @@
+import UIUXNav from "../components/UIUXNav"
 
 export default function Uiux  (){
     return (
         <div>
+            <UIUXNav />
             <p>
-           Coming Soon
+                
+                Coming Soon
 
             </p>
         </div>
     )
 }
-

@@ -15,11 +15,11 @@ const Navigation = () => {
                         Julia Olmstead
                     </a>
                 </Link>
-                <Link href="/Uiux">
+                <Link href="/Projects">
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
-                       UIUX
+                       Work
                     </a>
                 </Link> 
                 <Link href="/skills">
