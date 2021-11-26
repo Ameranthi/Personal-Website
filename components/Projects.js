@@ -17,7 +17,7 @@ export default function Projects() {
             <ProjectCard
               title={proj.title}
               link={proj.link}
-              src={proj.src}
+              imgUrl={proj.imgUrl}
               number={`${idx + 1}`}
             />
           ))}
@@ -27,13 +27,13 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, src, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <Image
-            src={src}
+            src={imgUrl}
             layout={'fill'}
             alt="portfolio"
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
