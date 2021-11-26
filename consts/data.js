@@ -11,7 +11,7 @@ const userData = {
       {
         title: "Vet Tech Project",
         link: "https://ppvt-xu4tpygspa-uc.a.run.app/",
-        imgUrl: "/../public/VetTech.png",
+        src: "/../public/VetTech.png",
       },
       // {
       //   title: "Apple Case Study",
