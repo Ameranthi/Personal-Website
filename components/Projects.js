@@ -1,5 +1,5 @@
 import React from "react";
-import userData from "../constants/data";
+import userData from "../consts/data";
 import Image from 'next/image';
 
 export default function Projects() {
@@ -17,7 +17,7 @@ export default function Projects() {
             <ProjectCard
               title={proj.title}
               link={proj.link}
-              imgUrl={proj.imgUrl}
+              src={proj.src}
               number={`${idx + 1}`}
             />
           ))}
@@ -27,13 +27,13 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, src, number }) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <Image
-            src={imgUrl}
+            src={src}
             layout={'fill'}
             alt="portfolio"
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
