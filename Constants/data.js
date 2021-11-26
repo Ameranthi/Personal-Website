@@ -22,11 +22,11 @@ const userData = {
 
     experience: [
       {
-        title: "Software Developer",
-        company: "mroads",
+        title: "Junior IT Specialist SAP Consultant ",
+        company: "IBM Canada",
         year: "2021",
-        companyLink: "https://mroads.com",
-        desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+        companyLink: "https://ibm.com",
+        desc: "",
       },
       {
         title: "Founder and Developer",
