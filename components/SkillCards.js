@@ -17,18 +17,17 @@ export const SkillCards = () => {
       <h5 class="text-gray-800 text-1xl font-semibold py-3 dark:text-white"> Design Skills </h5> 
       <ul class="grid grid-cols-1 md:grid-cols-2 px-2"> 
       
-        <li> UI design </li>
-        <li> UX design </li>
-        <li> AR Filter Design </li>
+       <li> UI design </li>
+      <li> UX design </li>
+      <li> AR Filter Design </li>
        <li> Illustrations </li>
-        <li> Storyboarding </li>
-        <li> 2D Game Assets </li>
-        <li> Wireframing </li>
-        <li> Mobile App Design </li>
-        <li> Web App Design </li>
+      <li> Storyboarding </li>
+      <li> 2D Game Assets </li>
+       <li> Wireframing </li>
+      <li> Mobile App Design </li>
+      <li> Web App Design </li>
        <li> Website Design </li>
-        <li> 3D design </li>
-
+      <li> 3D design </li>
         </ul>
 
         <h5 class="text-gray-800 text-1xl font-semibold py-3 dark:text-white">  Design Tools </h5>
@@ -71,15 +70,42 @@ export const SkillCards = () => {
         </ul>
 
 <h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> Databases </h5>
+<ul class="grid grid-cols-1 md:grid-cols-2 px-2">
+<li> MYSQL </li>
+   <li> SQL </li>
+    <li>  MariaDB </li>
+     <li> HanaDB </li>
+  </ul>
 
- <p> MYSQL, SQL, MariaDB, HanaDB </p>
 
 <h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> Tools </h5> 
-<p> Unity, IntelliJ, Git, PyCharm, PHPStorm, VirtualBox, NMap, Wireshark,
-   Android Studio, Microsoft Office, Linux, SAP: Frun, Hana </p>
+
+<ul class="grid grid-cols-1 md:grid-cols-2  py-0 px-2">
+
+<li> Unity </li>
+  <li> IntelliJ </li>
+    <li> Git </li>
+      <li> PyCharm </li> 
+      <li> PHPStorm </li>
+      <li> VirtualBox </li> 
+      <li> NMap </li> 
+      <li> Wireshark </li>
+
+ <li>  Android Studio </li>
+ <li> Microsoft Office </li>
+ <li>  Linux </li>
+ <li> SAP: Frun, Hana </li>
+ </ul>
 <h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> APIs </h5>
- <p> jQuery, JUnit </p>
-<h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> Frameworks </h5> <p> React, Next.js </p>
+<ul class="grid grid-cols-1 md:grid-cols-2 px-2">
+
+<li> jQuery </li> <li> JUnit </li> </ul>
+
+<h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> Frameworks </h5> 
+<ul class="grid grid-cols-1 md:grid-cols-2 px-2">
+
+<li> React </li> <li> Next.js </li>
+</ul>
     
 </div>
 </div>
@@ -96,7 +122,7 @@ export const SkillCards = () => {
 </h4>
     
 <h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white"> Leadership </h5> 
-      <ul class="grid grid-cols-1 md:grid-cols-2 px-2 dark:text-white"> 
+      <ul class="grid grid-cols-1 md:grid-cols-2 px-2 py-0 dark:text-white"> 
         <li> Computer Science Society Treasurer as well as training the new Manager for the CSS Desk </li>
       </ul>
 
