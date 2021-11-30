@@ -2,7 +2,16 @@ import React from 'react'
 
 export const SkillCards = () => {
     return (
-// /* Grid starts here */
+
+<div className="bg-white dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+          Skills
+        </h1>
+      </div>
+
+{/* // /* Grid starts here */ }
+
 <div className="bg-[#F1F1F1] dark:bg-black">
 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 py-2 flex justify-center">
 
@@ -127,8 +136,8 @@ export const SkillCards = () => {
       </ul>
 
         <h5 class="text-gray-800 text1xl font-semibold py-3 dark:text-white">  Mentor </h5>
-        <p>  </p>
-        <h6 > Mentor Stats </h6>
+        {/* <p>  </p>
+        <h6 > Mentor Stats </h6> */}
 
 
     </div>
@@ -137,6 +146,7 @@ export const SkillCards = () => {
 
 
  
+</div>
 </div>
 </div>
 

@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 export default function AppleCaseStudy(){
     return (
-    <div classname="container px-4 mx-auto px-10 py-7">
-        <div className="mt-6 text-gray-800 dark:text-white">
+    <div classname="container px-4 mx-auto">
+        <div className="mt-12 text-gray-800 dark:text-white ">
             
-            <div class="col-lg-8 col-md-10 mx-40">
+            <div class=" mx-40 lg-flex">
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Accessibility Intro </h4>
                 <p> Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as
                     well as able bodied persons. To use your device with voice commands without the internet dependent
