@@ -9,7 +9,7 @@ const userData = {
     
     projects: [
       {
-        title: "Vet Tech Project",
+        title: "Current Project: Vet Tech Project",
         link: "https://ppvt-xu4tpygspa-uc.a.run.app/",
         imgUrl: "/VetTech.png",
       },
@@ -22,6 +22,11 @@ const userData = {
         title: "ios Accessibility Custom Voice Command Case Study",
         link: "/AppleCaseStudy",
         imgUrl: "/accessibilitycollage.jpg",
+      },
+      {
+        title: "HealthFit UIUX and HCI Project",
+        link: "/HealthFit-html",
+        imgUrl: "/HealthFit.png",
       },
       ],
 
@@ -64,7 +69,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/1mcCjtjIo9FOwMMqxgMebj1Cno94HRiqM/view?usp=sharing",
+      "https://docs.google.com/document/d/e/2PACX-1vQ3M7XokUA_KL53B2ygZsiCKHRi0GE7jGHDec1ejdmMegnH6VKD2Oc3boxVM3iBKCusxW8gjPVfchw0/pub",
     socialLinks: {
       instagram: "https://instagram.com/julia.olmstead",
       twitter: "https://twitter.com/juliaolms",
