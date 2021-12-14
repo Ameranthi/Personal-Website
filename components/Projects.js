@@ -18,6 +18,7 @@ export default function Projects() {
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
+              desc = {proj.desc}
               number={`${idx + 1}`}
             />
           ))}
@@ -27,25 +28,35 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number, desc }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <div className="container px-4 mx-auto">
+    <a href={link} className="w-full shadow-2xl text-gray-800 block hover:bg-gray-100 ">
       <div className="relative overflow-hidden">
-        <div className="h-72 object-cover">
+        <div className="h-72 object-cover relative">
           <Image
             src={imgUrl}
             layout={'fill'}
             alt="portfolio"
-            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+            className="rounded-lg ease-out object-cover"
+        
           />
+          <h2 className="motion-safe absolute top-28 transform transition duration-2000 w-full h-full border-2 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 rounded-lg tracking-tight font-light text-center text-green-400 mb-1">
+
+                  {desc}
+            
+          </h2>
         </div>
-        <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+        <h1 className="absolute top-10 left-8 text-gray-50 font-bold text-xl bg-green-500 rounded-md px-2">
           {title}
         </h1>
-        <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+        <h1 className="absolute bottom-10 left-10 text-gray-50 bg-green-500 rounded-md px-1 font-bold text-xl">
           {number.length === 1 ? "0" + number : number}
         </h1>
+
+
       </div>
     </a>
+    </div>
   );
 };

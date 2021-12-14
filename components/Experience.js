@@ -44,11 +44,13 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-400 font-bold dark:text-gray-400">
         {year}
       </h1>
-      <h1 className="font-semibold text-xl dark:text-white">{title}</h1>
-      <a href={companyLink} className="text-gray-800">
+      <h1 className="font-semibold text-xl text-gray-800 dark:text-white">
+        {title}</h1>
+      <a href={companyLink} className="text-gray-800 dark:text-gray-400 text-underlined">
         {company}
       </a>
-      <p className="text-gray-600 dark:text-gray-200 my-2">{desc}</p>
+      <p className="text-gray-600 dark:text-gray-200 my-2">
+        {desc}</p>
     </div>
   );
 };
