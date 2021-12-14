@@ -9,19 +9,22 @@ const userData = {
     
     projects: [
       {
-        title: "Vet Tech Project",
+        title: "Current Project: Vet Tech Project",
         link: "https://ppvt-xu4tpygspa-uc.a.run.app/",
         imgUrl: "/VetTech.png",
+        desc: "A Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
       },
       {
         title: "Game Jam 2021 (24hour Challenge): Sock Search ",
         link: "https://play.unity.com/mg/other/webgl-builds-16572",
         imgUrl: "/SockSearch.png",
+        desc: "Participated for the 24 hour Game Jam Challenge to code a mini 2D Game in C#. Meet our Baboushka Doll who is trying to traverse the dirty closet"
       },
       {
         title: "ios Accessibility Custom Voice Command Case Study",
         link: "/AppleCaseStudy",
         imgUrl: "/accessibilitycollage.jpg",
+        desc: "Mini case study based on the lack of design and accessibility heuristics in Apple's Accesssibilty Settings"
       },
       ],
 
@@ -64,7 +67,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/1mcCjtjIo9FOwMMqxgMebj1Cno94HRiqM/view?usp=sharing",
+      "https://drive.google.com/file/d/18e1Vq9R6mQ1kYa92C2lEMkKh-bZ8kiRg/view?usp=sharing",
     socialLinks: {
       instagram: "https://instagram.com/julia.olmstead",
       twitter: "https://twitter.com/juliaolms",
