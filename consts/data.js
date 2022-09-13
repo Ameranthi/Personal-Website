@@ -9,10 +9,10 @@ const userData = {
     
     projects: [
       {
-        title: "Current Project: Vet Tech Project",
-        link: "https://ppvt-xu4tpygspa-uc.a.run.app/",
+        title: "April 2022 Hand-Off Project: Fennec",
+        link: "https://fennec.vercel.app",
         imgUrl: "/VetTech.png",
-        desc: "A Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
+        desc: "Made for Dr. Joye Sears, a vet tech professor at Dalhousie University for a projects course. This is a Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
       },
       {
         title: "Game Jam 2021 (24hour Challenge): Sock Search ",
