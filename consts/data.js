@@ -11,7 +11,7 @@ const userData = {
       {
         title: "April 2022 Hand-Off Project: Fennec",
         link: "https://fennec.vercel.app",
-        imgUrl: "/VetTech.png",
+        imgUrl: "/fennechome.png",
         desc: "Made for Dr. Joye Sears, a vet tech professor at Dalhousie University for a projects course. This is a Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
       },
       {
