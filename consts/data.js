@@ -9,10 +9,10 @@ const userData = {
     
     projects: [
       {
-        title: "April 2022 Hand-Off Project: Fennec",
+        title: "April 2022 Hand-Off Project: Fennec.",
         link: "https://fennec.vercel.app",
         imgUrl: "/fennechome.png",
-        desc: "Made for Dr. Joye Sears, a vet tech professor at Dalhousie University for a projects course. This is a Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
+        desc: "Made for Dr. Joye Sears, a vet tech professor at Dalhousie University. This live site has some bugs as it isn't the final code base, this is running on vercel and not google cloud. This site and git hub repo is in case the offcial code base meets disaster. This is a Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
       },
       {
         title: "Game Jam 2021 (24hour Challenge): Sock Search ",
@@ -25,6 +25,18 @@ const userData = {
         link: "/AppleCaseStudy",
         imgUrl: "/accessibilitycollage.jpg",
         desc: "Mini case study based on the lack of design and accessibility heuristics in Apple's Accesssibilty Settings"
+      },
+      {
+        title: "UIUX Lecture and Teaching Samples",
+        link: "https://drive.google.com/drive/folders/14OcIHSD8zDLl9YznTTBI7jnZKiBM21jj?usp=sharing",
+        imgUrl: "profile.jpeg",
+        desc: "Lecture and Teaching material samples from online courses I have either taught, guest lectured for, or was head of labs. Please Contact me for more materials or 1 on 1 asks",
+      },
+      {
+      title: "Health Fit App Final Report (view end for screens)",
+      link: "https://drive.google.com/file/d/1eDE9m5RmkSZidtM46cRfTH-t9MAome9h/view?usp=sharing",
+      imgUrl: "HealthFit.png",
+      desc: "App designed for mental and physical health for HCI class",
       },
       ],
 
