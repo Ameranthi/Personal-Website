@@ -79,7 +79,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/18e1Vq9R6mQ1kYa92C2lEMkKh-bZ8kiRg/view?usp=sharing",
+      "https://docs.google.com/document/d/1-NNgBEjtlqWoFIZXDcxBeKPld9ua7-6nzJ-QXhgpepA/edit?usp=sharing",
     socialLinks: {
       instagram: "https://instagram.com/julia.olmstead",
       twitter: "https://twitter.com/juliaolms",
