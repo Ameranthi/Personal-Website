@@ -40,7 +40,7 @@ export default function AppleCaseStudy(){
                 There is no way to tell which gesture came first and relies on recall rather than recognition. There is also no way for the user to know if they are creating the gesture in the right area of the screen! 
                 
                 <p>Possible fixes:</p>
-                <ol>
+                <ol style="list-style-type: lower-roman;">
                     <li> Touch counter </li>
                     <li> in 2020 it was not colored and now they are (easier to distinguish which came first), However, after the gesture finishes playing it all returns to the same yellow colour making it hard to see each gesture</li>
                     <li>A Screen Underlay</li>
