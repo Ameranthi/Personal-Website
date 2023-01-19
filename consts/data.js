@@ -15,12 +15,6 @@ const userData = {
         desc: "Made for Dr. Joye Sears, a vet tech professor at Dalhousie University. This live site has some bugs as it isn't the final code base, this is running on vercel and not google cloud. This site and git hub repo is in case the offcial code base meets disaster. This is a Site for Vet Tech Students to practice essential everyday math problems with realisitc quantities and dosages"
       },
       {
-        title: "Game Jam 2021 (24hour Challenge): Sock Search ",
-        link: "https://play.unity.com/mg/other/webgl-builds-16572",
-        imgUrl: "/SockSearch.png",
-        desc: "Participated for the 24 hour Game Jam Challenge to code a mini 2D Game in C#. Meet our Baboushka Doll who is trying to traverse the dirty closet"
-      },
-      {
         title: "ios Accessibility Custom Voice Command Case Study",
         link: "/AppleCaseStudy",
         imgUrl: "/accessibilitycollage.jpg",
@@ -38,6 +32,14 @@ const userData = {
       imgUrl: "HealthFit.png",
       desc: "App designed for mental and physical health for HCI class",
       },
+      {
+        title: "Game Jam 2021 (24hour Challenge): Sock Search ",
+        link: "https://play.unity.com/mg/other/webgl-builds-16572",
+        imgUrl: "/SockSearch.png",
+        desc: "Participated for the 24 hour Game Jam Challenge to code a mini 2D Game in C#. Meet our Baboushka Doll who is trying to traverse the dirty closet"
+      },
+      
+      
       ],
 
     experience: [
