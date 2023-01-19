@@ -7,38 +7,44 @@ export default function AppleCaseStudy(){
         <div className="mt-12 text-gray-800 dark:text-white ">
             
             <div class=" mx-40 lg-flex">
-                <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Accessibility Intro </h4>
-                <p> Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as
-                    well as able bodied persons. To use your device with voice commands without the internet dependent
-                    “Siri”
-                    you have to enable Voice Control. However, if you are already depending on voice control having
-                    customized
-                    gestures can be essential when even unlocking your device. Apple already makes traversing your
-                    accessibility
-                    functions painful by using technical terms and not typical everyday normative terms.</p>
+                <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white"> Voice Control and Custom Commands </h4>
+                <p> Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as well as able bodied persons. To use your device with voice commands without the internet dependent “Siri” you can enable "Voice Control". However, if you are already depending on voice control having customized gestures can be essential when even unlocking your device without face ID. Unfortunately, many design heuristics are skimped over in the Accessibility settings. It is already quite difficult traversing accessibility functions as there are accessibility settings that use technical terms and not typical everyday normative termssuch as: "Switch Control" and "TTY", both which are terms most often used in the Programming/Tech community.</p> <br>
+                </br>
+                <p> we make the assumption that apple users are not all programming and tech savvy community memebers as their targetted audience and markets are diverse but are not specific to this.</p>
+
+                {/* image example */}
+
+                
 
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Accessibility Function: Voice Control</h4>
 
-                <p>The accessibility “Voice Control” “custom gesture” control only allows up to 5 touches to log
-                    before it won’t log anymore. It doesn’t tell you it maxes out at 5 touches as well as doesn’t
-                    allow people to learn about the accessibility settings easily unless finding out about it through
-                    trendy TikToks or the Apple Knowledge Bank, which makes it rely on recall rather than recognition.
-                    Accessibility is crucial for users with Cerebral Palsy and issues with motor function.
+                
+<video width="320" height="240" muted autoplay>
+  <source src="/customcommands.MP4" type="video/mp4"/>
+
+  Your browser does not support the video tag.
+</video>
+
+                <p>The accessibility “Voice Control” “custom gesture” control only allows up to 5 touches to log (in 2020) before it won’t log anymore. This was tested again in 2023 it now goes up to 10 unique touches. 
+
+                    It never told you it maxed out at 5 touches as well as it currently doesn't announce to the user it ends at 10 (in 2023). 
+                    
+                    When speaking to friends and family with iPhones I also found that most don't know the capabilities of Voice Control. Due to the limited public general use knowledge settings often go under used. It doesn’t allow people to learn about the accessibility settings easily unless finding out about it through trendy TikToks or the Apple Knowledge Bank, which makes it rely on recall rather than recognition. Accessibility with voice control can be crucial for users with Cerebral Palsy and issues with motor function, such as my moms little sister in the Big Sister Little Sister program in Canada. 
                 </p>
 
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Design Heuristic Violations </h4>
                 <p>The Apple Accessibility settings shows lack of thought towards the following heuristics:</p>
                 
-                <h5 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Visibility of System Status: </h5>
+                <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Visibility of System Status: </h6>
                 there is no way to tell which gesture came first and relies on recall rather than recognition.
                 Consistency and standards – they don’t use the same jargon as the rest of their settings - making it
                 difficult and cluttered to get around.
 
-            <h5 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Error Prevention:</h5>
+            <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Error Prevention:</h6>
                 You can make a mistake in creating your gestures and will have to do it all over again to correct
                 it.
 
-              <h5 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Flexibility and Efficiency:</h5>
+              <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Flexibility and Efficiency:</h6>
               <p>
                 of use doesn’t exist here, and help and documentation is not easily accessible –
                 you would have to know about the knowledge bank to be able to use it, I learned from Tom at
