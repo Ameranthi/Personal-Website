@@ -8,7 +8,7 @@ export default function AppleCaseStudy(){
             
             <div class=" mx-40 lg-flex">
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white"> Apple Voice Control and Custom Commands </h4>
-                <p> Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as well as able bodied persons. To use your device with voice commands without the internet dependent “Siri” you can enable "Voice Control". However, if you are already depending on voice control having customized gestures can be essential when even unlocking your device without face ID. Unfortunately, many design heuristics are skimped over in the Accessibility settings. It is already quite difficult traversing accessibility functions as there are accessibility settings that use technical terms and not typical everyday normative termssuch as: "Switch Control" and "TTY", both which are terms most often used in the Programming/Tech community.</p> <br>
+                <p> This case study was originally created in 2020 and was edited in 2023 after noticing some bandaid fixes. This case study is still relevant as the main problems are still occuring as well as the same heuristic violations are still applicable. Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as well as able bodied persons. To use your device with voice commands without the internet dependent “Siri” you can enable "Voice Control". However, if you are already depending on voice control having customized gestures can be essential when even unlocking your device without face ID. Unfortunately, many design heuristics are skimped over in the Accessibility settings. It is already quite difficult traversing accessibility functions as there are accessibility settings that use technical terms and not typical everyday normative termssuch as: "Switch Control" and "TTY", both which are terms most often used in the Programming/Tech community.</p> <br>
                 </br>
                 <p> we make the assumption that apple users are not all programming and tech savvy community memebers as their targetted audience and markets are diverse but are not specific to this.</p>
 
@@ -29,24 +29,24 @@ export default function AppleCaseStudy(){
                     
                     The accessibility “Voice Control” “custom gesture” control only allows up to 5 touches to log (in 2020) before it won’t log anymore. This was tested again in 2023 it now goes up to 10 unique touches. However the design hueristic violation is not fixed with more touches being added. It never told you it maxed out at 5 touches as well as it currently doesn't announce to the user it ends at 10 (in 2023). This relies on the user to recall how many times it has touched the interface which can be hard for older ages or those with neurological conditions.
                     <br></br>
-                    When speaking to friends and family with iPhones I also found that most don't know the capabilities of Voice Control. Due to the limited public general use knowledge settings often go under used. It doesn’t allow people to learn about the accessibility settings easily unless finding out about it through trendy TikToks or the Apple Knowledge Bank, which makes it rely on recall rather than recognition. Accessibility with voice control can be crucial for users with Cerebral Palsy and issues with motor function, such as my moms little sister in the Big Sister Little Sister program in Canada. 
+                    When speaking to friends and family with iPhones I also found that most don't know the capabilities of Voice Control. Due to the limited public general use knowledge settings often go under used. It doesn’t allow people to learn about the accessibility settings easily unless finding out about it through trendy TikToks or the Apple Knowledge Bank, which makes it rely on "recall" rather than "recognition". Accessibility with voice control can be crucial for users with Cerebral Palsy and/or issues with motor function, such as my moms little sister in the Big Sister Little Sister program in Canada. 
                 </p>
 
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Design Heuristic Violations </h4>
                 <p>So let's talk about three main heuristics that have been broken and possible fixes!</p>
                 
                 <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">1 Visibility of System Status: </h6>
-                There is no way to tell which gesture came first and relies on recall rather than recognition. 
+                There is no way to tell which gesture came first and relies on recall rather than recognition. There is also no way for the user to know if they are creating the gesture in the right area of the screen! 
                 
                 <p>Possible fixes:</p>
-                <ul>
+                <ol>
                     <li> Touch counter </li>
                     <li> in 2020 it was not colored and now they are (easier to distinguish which came first), However, after the gesture finishes playing it all returns to the same yellow colour making it hard to see each gesture</li>
                     <li>A Screen Underlay</li>
-                    <p> This would be used to ensure the user is creating touches/gestures in the correct area of the screen that they want to create a custom gesture for. </p>
-                    <p> ability to move the gesture play back slider</p>
+                    <p> This would be used to ensure the user is creating touches/gestures in the correct area of the screen that they want to create a custom gesture for. Currently there are "hacks" posted online where people will use tape, lipgloss or lipstick to mark the areas where they need. However, this shouldn't be something people have to use to be able to set up a custom gesture for accessibility. </p>
+                    <li> ability to move the gesture play back slider</li>
 
-                </ul>
+                </ol>
 
 
             <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">2 Error Prevention:</h6>
