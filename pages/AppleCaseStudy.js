@@ -7,6 +7,7 @@ export default function AppleCaseStudy(){
         <div className="mt-12 text-gray-800 dark:text-white ">
             
             <div class=" mx-40 lg-flex">
+                <h1>Apple Voice Control Accessibility Case Study</h1> 
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white"> Apple Voice Control and Custom Commands </h4>
                 <p> This case study was originally created in 2020 and was edited in 2023 after noticing some bandaid fixes. This case study is still relevant as the main problems are still occuring as well as the same heuristic violations are still applicable. Accessibility is imperative and makes using your iPhone simpler for people with limited mobility as well as able bodied persons. To use your device with voice commands without the internet dependent “Siri” you can enable "Voice Control". However, if you are already depending on voice control having customized gestures can be essential when even unlocking your device without face ID. Unfortunately, many design heuristics are skimped over in the Accessibility settings. It is already quite difficult traversing accessibility functions as there are accessibility settings that use technical terms and not typical everyday normative termssuch as: "Switch Control" and "TTY", both which are terms most often used in the Programming/Tech community.</p> <br>
                 </br>
