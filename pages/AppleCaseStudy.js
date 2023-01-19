@@ -19,38 +19,55 @@ export default function AppleCaseStudy(){
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Accessibility Function: Voice Control</h4>
 
                 
-<video width="320" height="240" muted autoplay>
+<video width="320" height="240" muted autoplay controls>
   <source src="https://juliao.vercel.app/customcommands.MP4" type="video/mp4"/>
+
   Your browser does not support the video tag.
 </video>
 
-                <p>The accessibility “Voice Control” “custom gesture” control only allows up to 5 touches to log (in 2020) before it won’t log anymore. This was tested again in 2023 it now goes up to 10 unique touches. 
-
-                    It never told you it maxed out at 5 touches as well as it currently doesn't announce to the user it ends at 10 (in 2023). 
+                <p> Immediately we can start to point out issues with the ease of accessibility in the design as it's skiping over vital design heuristics.
                     
+                    The accessibility “Voice Control” “custom gesture” control only allows up to 5 touches to log (in 2020) before it won’t log anymore. This was tested again in 2023 it now goes up to 10 unique touches. However the design hueristic violation is not fixed with more touches being added. It never told you it maxed out at 5 touches as well as it currently doesn't announce to the user it ends at 10 (in 2023). This relies on the user to recall how many times it has touched the interface which can be hard for older ages or those with neurological conditions.
+                    <br></br>
                     When speaking to friends and family with iPhones I also found that most don't know the capabilities of Voice Control. Due to the limited public general use knowledge settings often go under used. It doesn’t allow people to learn about the accessibility settings easily unless finding out about it through trendy TikToks or the Apple Knowledge Bank, which makes it rely on recall rather than recognition. Accessibility with voice control can be crucial for users with Cerebral Palsy and issues with motor function, such as my moms little sister in the Big Sister Little Sister program in Canada. 
                 </p>
 
                 <h4 class="text-gray-800 text-2xl font-semibold flex justify-center py-5 dark:text-white">Design Heuristic Violations </h4>
-                <p>The Apple Accessibility settings shows lack of thought towards the following heuristics:</p>
+                <p>So let's talk about three main heuristics that have been broken and possible fixes!</p>
                 
-                <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Visibility of System Status: </h6>
-                there is no way to tell which gesture came first and relies on recall rather than recognition.
-                Consistency and standards – they don’t use the same jargon as the rest of their settings - making it
-                difficult and cluttered to get around.
+                <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">1 Visibility of System Status: </h6>
+                There is no way to tell which gesture came first and relies on recall rather than recognition. 
+                
+                <p>Possible fixes:</p>
+                <ul>
+                    <li> Touch counter </li>
+                    <li> in 2020 it was not colored and now they are (easier to distinguish which came first), However, after the gesture finishes playing it all returns to the same yellow colour making it hard to see each gesture</li>
+                    <li>A Screen Underlay</li>
+                    <p> This would be used to ensure the user is creating touches/gestures in the correct area of the screen that they want to create a custom gesture for. </p>
+                    <p> ability to move the gesture play back slider</p>
 
-            <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Error Prevention:</h6>
+                </ul>
+
+
+            <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">2 Error Prevention:</h6>
                 You can make a mistake in creating your gestures and will have to do it all over again to correct
                 it.
+                <br/> 
+                <p>Possible fixes:</p>
+                <ul>
+                    <li>an undo button!</li>
+                    <li>Delete gesture button!</li>
 
-              <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">Flexibility and Efficiency:</h6>
-              <p>
-                of use doesn’t exist here, and help and documentation is not easily accessible –
+                </ul>
+                    
+
+              <h6 class="text-gray-800 text-2xl font-semibold flex justify-left py-5 dark:text-white">3 Flexibility and Efficiency:</h6>
+              <p> ease of use doesn’t exist here, and help and documentation is not easily accessible –
                 you would have to know about the knowledge bank to be able to use it, I learned from Tom at
-                the Apple Store. </p>
+                the Apple Store. circa 2020. </p>
 
                 <p> The process of creating a customized gesture for accessibility is also ridiculously long and weird
-                    to figure out, as seen below:</p>
+                    to reach this area a screenshot of each action is show in sequence. Yes screenshots to emphasize how many darn steps there are, as seen below:</p>
                
                 <Image 
                 src='/a1.png' 
@@ -86,7 +103,7 @@ export default function AppleCaseStudy(){
                     <p>
                     It is recommended to have users know their status and not rely on recall. Having numbers of used
                     gestures inside the custom gestures set up so you can see your status, show that the maximum
-                    gestures to use is five, numbers on the gestures themselves to be able to identify them, allow for
+                    gestures to use is five(2020) or now 10 in 2023, numbers on the gestures themselves to be able to identify them or have them colour coordinated, allow for
                     error correction by an “ edit” button and be able to move the gestures around- this would be for
                     efficiency and advanced users. Keep the timeline at the bottom of the custom gestures creation page
                     so people can see the play back. Allow for low opacity backgrounds of the home screen or apps to
